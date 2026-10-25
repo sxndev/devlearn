@@ -1,7 +1,66 @@
 header {
-    background: #480a66; 
-    height: 10vh;
+  min-height: 12vh;
+  z-index: 999; 
 }
-main{
-    padding-top: 10vh;
+/* criei essas classes pra usar estilos diferentes junto com as classes do bootstrap e facilitar na hora de escrever o código */
+
+.bg-purple {
+  background-color: #620a8f;
+}
+.color-purple {
+  color: #620a8f;
+}
+.silkscreen {
+  font-family: "Silkscreen", "Poppins", sans-serif;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  padding-top: 12vh;
+}
+
+#home,
+#footer {
+  scroll-margin-top: 12vh;
+}
+
+#trails {
+  scroll-margin-top: 15vh; 
+}
+
+#home a {
+  height: 60px;
+  max-width: 300px;
+}
+
+#html-card {
+  background-color: orangered;
+}
+#js-card {
+  background-color: yellow;
+}
+
+#logic-card {
+  background-color: gray;
+}
+
+#python-card {
+  background-color: #23b551;
+}
+
+#database-card {
+  background-color: pink;
+}
+#network-card {
+  background-color: #6fbdbd;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+}
+
+.footer-title {
+  color: #facc15;
 }
